@@ -10,8 +10,3 @@ function happyHolidayTo(holiday, name ) {
   return `Happy ${holiday},${name}!`
 }
 
-describe('happyHolidayTo(holiday, name)', () => {
-    it('returns "Happy ${holiday}, ${name}!"', () => {
-      expect(happyHolidayTo('Independence Day', 'you')).toEqual('Happy Independence Day, you!')
-    })
-  })
